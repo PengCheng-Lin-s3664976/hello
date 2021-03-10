@@ -1,10 +1,11 @@
 package hello;
 
 public class hello1 {
-	static int year;
-
-	public static void main(String[] args) {
-		
-		System.out.println(new String(" Hello world ") + year);
-	}
+	public static void anotherMethod( ){
+		System.out.print("There ");
+		}
+	public static void main(String[] args){
+		System.out.print("Hello ");
+		anotherMethod();
+		}
 }
